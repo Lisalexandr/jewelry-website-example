@@ -1,0 +1,136 @@
+body {
+    background-color: whitesmoke;
+    margin-top: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+header {
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: block;
+    padding: 1%;
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+nav a:visited {
+    color: #663399;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    margin-top: 5%;
+}
+
+footer div {
+    flex: 1;
+}
+
+#logo_footer {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer p {
+    text-align: right;
+}
+
+.intro h1 {
+    text-align: center;
+}
+
+.intro p {
+    text-align: justify;
+    font-size: larger;
+}
+
+.products {
+    margin-top: 2%;
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 2rem;
+    padding: 3%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 #000;
+    max-width: 80%;
+    text-align: center;
+}
+
+.card_description{
+    text-align: justify;
+}
+.card button {
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.price {
+    color: #663399;
+    font-weight: bolder;
+}
